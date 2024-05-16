@@ -1,0 +1,41 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{5}{section*.1}%
+\contentsline {section}{\numberline {1}Анализ предметной области}{8}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Описание предметной области}{8}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Основные принципы удаленного администрирования}{9}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Задачи и функции удаленного администратора}{10}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Особенности администрирования в корпоративной среде}{11}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Техническое задание}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Основание для разработки}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Требования пользователя к программному продукту}{14}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Требования к данным программного продукта}{14}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Функциональные требования к программному продукту}{15}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Требования пользователя к интерфейсу в программном продукте}{16}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Варианты использования программного продукта}{17}{subsubsection.2.3.4}%
+\contentsline {paragraph}{\numberline {2.3.4.1}Добавление Ip}{17}{paragraph.2.3.4.1}%
+\contentsline {paragraph}{\numberline {2.3.4.2}Удаление Ip}{18}{paragraph.2.3.4.2}%
+\contentsline {paragraph}{\numberline {2.3.4.3}Подключение к серверу}{18}{paragraph.2.3.4.3}%
+\contentsline {paragraph}{\numberline {2.3.4.4}Открытие файловых систем компьютеров}{18}{paragraph.2.3.4.4}%
+\contentsline {paragraph}{\numberline {2.3.4.5}Получение и просмотр файловой системы клиента}{19}{paragraph.2.3.4.5}%
+\contentsline {paragraph}{\numberline {2.3.4.6}Получение и просмотр файловой системы сервера}{19}{paragraph.2.3.4.6}%
+\contentsline {paragraph}{\numberline {2.3.4.7}Отправка файла}{19}{paragraph.2.3.4.7}%
+\contentsline {paragraph}{\numberline {2.3.4.8}Получение файла}{20}{paragraph.2.3.4.8}%
+\contentsline {paragraph}{\numberline {2.3.4.9}Открытие консольного управления сервером}{20}{paragraph.2.3.4.9}%
+\contentsline {paragraph}{\numberline {2.3.4.10}Отправка команды}{20}{paragraph.2.3.4.10}%
+\contentsline {paragraph}{\numberline {2.3.4.11}Получение ответа}{21}{paragraph.2.3.4.11}%
+\contentsline {paragraph}{\numberline {2.3.4.12}Отключение от сервера}{21}{paragraph.2.3.4.12}%
+\contentsline {subsection}{\numberline {2.4}Нефункциональные требования к программному продукту}{21}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Требования к надежности}{21}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Требования к программному обеспечению}{21}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Требования к оформлению документации}{22}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Технический проект}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Общие сведения о программной систем}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{23}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Описание используемых технологий и языков программирования}{24}{subsubsection.3.2.1}%
+\contentsline {paragraph}{\numberline {3.2.1.1}Язык программирования C\#}{24}{paragraph.3.2.1.1}%
+\contentsline {paragraph}{\numberline {3.2.1.2}Протокол TCP/IP}{26}{paragraph.3.2.1.2}%
+\contentsline {subsection}{\numberline {3.3}Проектирование архитектуры программной системы}{27}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Архитектура программной системы}{27}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.4}Проектирование пользовательского интерфейса}{27}{subsection.3.4}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{30}{section*.9}%
