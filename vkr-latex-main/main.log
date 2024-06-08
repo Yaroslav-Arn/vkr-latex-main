@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.4.28)  16 MAY 2024 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.4.28)  8 JUN 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,226 +750,378 @@ Package hyperref Info: Link coloring OFF on input line 16.
 \openout3 = `main.out'.
 
 \c@lstlisting=\count325
- (ТитульныйЛистПрактика.tex
+ (ТитульныйЛист.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 16.
+(Font)              <14.4> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
-) (Содержание.tex [1
+(Font)              <7> on input line 27.
 
-] (main.toc
-Overfull \hbox (7.2pt too wide) detected at line 3
+Overfull \hbox (4.70218pt too wide) in paragraph at lines 27--50
+[]
+ []
+
+
+Overfull \hbox (4.70218pt too wide) in paragraph at lines 27--50
+[] 
+ []
+
+) (ЛистЗадания.tex [1
+
+] [2
+
+]) (Реферат.tex
+Underfull \hbox (badness 10000) in paragraph at lines 86--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--1
+
+ []
+
+[3] [4]
+\c=\count326
+\last=\count327
+\pnul=\count328
+\c=\count329
+\last=\count330
+\pnul=\count331
+\c=\count332
+\last=\count333
+\pnul=\count334
+\c=\count335
+\last=\count336
+\pnul=\count337
+\c=\count338
+\last=\count339
+\pnul=\count340
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(0)/m/n/14.4 Целью выпускной квалификационной работы являетс
+я
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 10--11
+\TU/TimesNewRoman(0)/m/n/14.4 повышения эффективности работы IT-администраторов
+ организации с
+ []
+
+[5
+
+]
+\c=\count341
+\last=\count342
+\pnul=\count343
+\c=\count344
+\last=\count345
+\pnul=\count346
+\c=\count347
+\last=\count348
+\pnul=\count349
+\c=\count350
+\last=\count351
+\pnul=\count352
+\c=\count353
+\last=\count354
+\pnul=\count355
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\TU/TimesNewRoman(0)/m/n/14.4 The purpose of the final qualification work is
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 27--28
+\TU/TimesNewRoman(0)/m/n/14.4 to increase the efficiency of the organization’s 
+IT administrators using a
+ []
+
+) (Содержание.tex [6] (main.toc
+Overfull \hbox (7.2pt too wide) detected at line 5
 \TU/TimesNewRoman(0)/m/n/14.4 1 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 4
+Overfull \hbox (18.0pt too wide) detected at line 6
 \TU/TimesNewRoman(0)/m/n/14.4 1.1 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 5
+Overfull \hbox (18.0pt too wide) detected at line 7
 \TU/TimesNewRoman(0)/m/n/14.4 1.2 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 6
+Overfull \hbox (18.0pt too wide) detected at line 8
 \TU/TimesNewRoman(0)/m/n/14.4 1.3 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 7
+Overfull \hbox (18.0pt too wide) detected at line 9
 \TU/TimesNewRoman(0)/m/n/14.4 1.4 
  []
 
 
-Overfull \hbox (7.2pt too wide) detected at line 8
+Overfull \hbox (7.2pt too wide) detected at line 10
 \TU/TimesNewRoman(0)/m/n/14.4 2 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 9
+Overfull \hbox (18.0pt too wide) detected at line 11
 \TU/TimesNewRoman(0)/m/n/14.4 2.1 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 10
+Overfull \hbox (18.0pt too wide) detected at line 12
 \TU/TimesNewRoman(0)/m/n/14.4 2.2 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 11
+Overfull \hbox (18.0pt too wide) detected at line 13
 \TU/TimesNewRoman(0)/m/n/14.4 2.3 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 12
+Overfull \hbox (28.79999pt too wide) detected at line 14
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.1 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 13
+Overfull \hbox (28.79999pt too wide) detected at line 15
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.2 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 14
+Overfull \hbox (28.79999pt too wide) detected at line 16
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.3 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 15
+Overfull \hbox (28.79999pt too wide) detected at line 17
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 16
+Overfull \hbox (39.59999pt too wide) detected at line 18
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.1 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 17
+Overfull \hbox (39.59999pt too wide) detected at line 19
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.2 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 18
+Overfull \hbox (39.59999pt too wide) detected at line 20
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.3 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 19
+Overfull \hbox (39.59999pt too wide) detected at line 21
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.4 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 20
+Overfull \hbox (39.59999pt too wide) detected at line 22
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.5 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 21
+Overfull \hbox (39.59999pt too wide) detected at line 23
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.6 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 22
+Overfull \hbox (39.59999pt too wide) detected at line 24
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.7 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 23
+Overfull \hbox (39.59999pt too wide) detected at line 25
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.8 
  []
 
 
-Overfull \hbox (39.59999pt too wide) detected at line 24
+Overfull \hbox (39.59999pt too wide) detected at line 26
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.9 
  []
 
 
-Overfull \hbox (46.79999pt too wide) detected at line 25
+Overfull \hbox (46.79999pt too wide) detected at line 27
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.10 
  []
 
 
-Overfull \hbox (46.26561pt too wide) detected at line 26
+Overfull \hbox (46.26561pt too wide) detected at line 28
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.11 
  []
 
 
-Overfull \hbox (46.79999pt too wide) detected at line 27
+Overfull \hbox (46.79999pt too wide) detected at line 29
 \TU/TimesNewRoman(0)/m/n/14.4 2.3.4.12 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 28
+Overfull \hbox (18.0pt too wide) detected at line 30
 \TU/TimesNewRoman(0)/m/n/14.4 2.4 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 29
+Overfull \hbox (28.79999pt too wide) detected at line 31
 \TU/TimesNewRoman(0)/m/n/14.4 2.4.1 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 30
+Overfull \hbox (28.79999pt too wide) detected at line 32
 \TU/TimesNewRoman(0)/m/n/14.4 2.4.2 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 31
+Overfull \hbox (28.79999pt too wide) detected at line 33
 \TU/TimesNewRoman(0)/m/n/14.4 2.4.3 
  []
 
-[2
+[7
 
 ]
-Overfull \hbox (7.2pt too wide) detected at line 32
+Overfull \hbox (7.2pt too wide) detected at line 34
 \TU/TimesNewRoman(0)/m/n/14.4 3 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 33
+Overfull \hbox (18.0pt too wide) detected at line 35
 \TU/TimesNewRoman(0)/m/n/14.4 3.1 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 34
+Overfull \hbox (18.0pt too wide) detected at line 36
 \TU/TimesNewRoman(0)/m/n/14.4 3.2 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 35
-\TU/TimesNewRoman(0)/m/n/14.4 3.2.1 
- []
-
-
-Overfull \hbox (39.59999pt too wide) detected at line 36
-\TU/TimesNewRoman(0)/m/n/14.4 3.2.1.1 
- []
-
-
-Overfull \hbox (39.59999pt too wide) detected at line 37
-\TU/TimesNewRoman(0)/m/n/14.4 3.2.1.2 
- []
-
-
-Overfull \hbox (18.0pt too wide) detected at line 38
+Overfull \hbox (18.0pt too wide) detected at line 37
 \TU/TimesNewRoman(0)/m/n/14.4 3.3 
  []
 
 
-Overfull \hbox (28.79999pt too wide) detected at line 39
+Overfull \hbox (28.79999pt too wide) detected at line 38
 \TU/TimesNewRoman(0)/m/n/14.4 3.3.1 
  []
 
 
-Overfull \hbox (18.0pt too wide) detected at line 40
+Overfull \hbox (28.79999pt too wide) detected at line 39
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.2 
+ []
+
+
+Overfull \hbox (28.79999pt too wide) detected at line 40
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 41
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3.1 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 42
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3.2 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 43
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3.3 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 44
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3.4 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 45
+\TU/TimesNewRoman(0)/m/n/14.4 3.3.3.5 
+ []
+
+
+Overfull \hbox (18.0pt too wide) detected at line 46
 \TU/TimesNewRoman(0)/m/n/14.4 3.4 
+ []
+
+
+Overfull \hbox (28.79999pt too wide) detected at line 47
+\TU/TimesNewRoman(0)/m/n/14.4 3.4.1 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 48
+\TU/TimesNewRoman(0)/m/n/14.4 3.4.1.1 
+ []
+
+
+Overfull \hbox (39.59999pt too wide) detected at line 49
+\TU/TimesNewRoman(0)/m/n/14.4 3.4.1.2 
+ []
+
+
+Overfull \hbox (18.0pt too wide) detected at line 50
+\TU/TimesNewRoman(0)/m/n/14.4 3.5 
+ []
+
+
+Overfull \hbox (7.2pt too wide) detected at line 51
+\TU/TimesNewRoman(0)/m/n/14.4 4 
+ []
+
+
+Overfull \hbox (18.0pt too wide) detected at line 52
+\TU/TimesNewRoman(0)/m/n/14.4 4.1 
+ []
+
+
+Overfull \hbox (28.79999pt too wide) detected at line 53
+\TU/TimesNewRoman(0)/m/n/14.4 4.1.1 
+ []
+
+
+Overfull \hbox (28.79999pt too wide) detected at line 54
+\TU/TimesNewRoman(0)/m/n/14.4 4.1.2 
+ []
+
+
+Overfull \hbox (28.79999pt too wide) detected at line 55
+\TU/TimesNewRoman(0)/m/n/14.4 4.1.3 
+ []
+
+
+Overfull \hbox (18.0pt too wide) detected at line 56
+\TU/TimesNewRoman(0)/m/n/14.4 4.2 
+ []
+
+
+Overfull \hbox (18.0pt too wide) detected at line 57
+\TU/TimesNewRoman(0)/m/n/14.4 4.3 
  []
 
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-) (Обозначения.tex [3]) (Введение.tex [4
+ [8]) (Обозначения.tex) (Введение.tex [9
 
-] [5
+] [10
 
 ]
-\c=\count326
-\last=\count327
-\pnul=\count328
+\c=\count356
+\last=\count357
+\pnul=\count358
 
 Underfull \hbox (badness 1946) in paragraph at lines 24--25
 []\TU/TimesNewRoman(0)/m/it/14.4 В первом разделе \TU/TimesNewRoman(0)/m/n/14.4
  на стадии описания технической характеристи-
  []
 
-) (Анализ.tex [6] [7]
+) (Анализ.tex [11] [12]
 Underfull \hbox (badness 1314) in paragraph at lines 4--5
 \TU/TimesNewRoman(0)/m/n/14.4 информационными системами, компьютерными сетями и
  серверами без
@@ -981,57 +1133,60 @@ Underfull \hbox (badness 2126) in paragraph at lines 16--17
 даментальные
  []
 
-[8
+[13
 
-] [9]
+] [14]
 Underfull \hbox (badness 1248) in paragraph at lines 36--37
 []\TU/TimesNewRoman(0)/b/n/14.4 Управление пользователями и группами: \TU/Times
 NewRoman(0)/m/n/14.4 Администратор может
  []
 
-[10]
+[15]
 Underfull \hbox (badness 6236) in paragraph at lines 52--53
 \TU/TimesNewRoman(0)/m/n/14.4 роко используются системы управления конфигурацие
 й (Configuration
  []
 
-[11]) (ТехЗадание.tex [12]
+[16]) (ТехЗадание.tex [17]
 Underfull \hbox (badness 1052) in paragraph at lines 4--5
 []\TU/TimesNewRoman(0)/m/n/14.4 Основанием для разработки программно-информацио
 нной системы
  []
 
-File: images/Диаграмма действия.eps Graphic file (type eps)
-<images/Диаграмма действия.eps>
-[13
+File: images/Диаграмма архитектуры.png Graphic file (type bmp)
+<images/Диаграмма архитектуры.png>
+[18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+File: images/UML.png Graphic file (type bmp)
+<images/UML.png>
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 []\TU/TimesNewRoman(0)/m/n/14.4 На основании анализа предметной области в разра
 батываемой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 \TU/TimesNewRoman(0)/m/n/14.4 программно-информационной системе удаленного адми
 нистрирования
  []
 
-[14]
+[20]
 File: images/Диаграмма прецедентов.eps Graphic file (type eps)
 <images/Диаграмма прецедентов.eps>
- [15] [16]
+ [21] [22]
 File: images/Макет окна(консоль).png Graphic file (type bmp)
 <images/Макет окна(консоль).png>
 File: images/Макет окна(файлы).png Graphic file (type bmp)
 <images/Макет окна(файлы).png>
- [17] [18] [19] [20]) (ТехПроект.tex [21] [22]
+ [23] [24] [25] [26] [27]) (ТехПроект.tex [28]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []\TU/TimesNewRoman(0)/m/n/14.4 Необходимо спроектировать и разработать програм
 мно-
  []
 
-[23
+[29
 
 ]
 Underfull \hbox (badness 3386) in paragraph at lines 24--25
@@ -1039,66 +1194,894 @@ Underfull \hbox (badness 3386) in paragraph at lines 24--25
 предлагает
  []
 
-[24] [25]
+[30] [31]
 Underfull \hbox (badness 1270) in paragraph at lines 62--63
 \TU/TimesNewRoman(0)/m/n/14.4 различных платформах и устройствах. Это обеспечив
 ает совместимость
  []
 
-File: images/Диаграмма классов.png Graphic file (type bmp)
-<images/Диаграмма классов.png>
-[26]
+[32] [33]
+Underfull \hbox (badness 2351) in paragraph at lines 116--117
+[]\TU/TimesNewRoman(0)/m/n/14.4 Протокол отправки команды на сервер предназначе
+н для переда-
+ []
+
+[34]
+Underfull \hbox (badness 2435) in paragraph at lines 125--126
+[]\TU/TimesNewRoman(0)/m/n/14.4 На стороне сервера при получении при получении 
+команды вы-
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 125--126
+\TU/TimesNewRoman(0)/m/n/14.4 зывается и используются методы ExecuteCommandAsyn
+c(входными дан-
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 125--126
+\TU/TimesNewRoman(0)/m/n/14.4 ными для него служит строка команды, выходных дан
+ных нету) и
+ []
+
+[35] [36]
+File: images/Диаграмма клиента.png Graphic file (type bmp)
+<images/Диаграмма клиента.png>
+ [37]
+Overfull \vbox (16.03084pt too high) has occurred while \output is active []
+
+
+[38] [39]
+File: images/Диаграмма сервера.png Graphic file (type bmp)
+<images/Диаграмма сервера.png>
+ [40]
 File: images/Окно с консолью.png Graphic file (type bmp)
 <images/Окно с консолью.png>
- [27]
+ [41]
 File: images/Окно с файлами.png Graphic file (type bmp)
 <images/Окно с файлами.png>
- [28]) (СписокИсточников.tex [29]
-Underfull \hbox (badness 2662) in paragraph at lines 13--14
-[]\TU/TimesNewRoman(0)/m/n/14.4 Фаулер, М. Рефакторинг: Улучшение существующего
- кода./ М.
+ [42]) (РабочийПроект.tex [43]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Содержит полный
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 19--20
-[]\TU/TimesNewRoman(0)/m/n/14.4 Гамма, Э. Приемы объектно-ориентированного прое
-ктирования.
+Underfull \hbox (badness 7344) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/14.4 путь и имя до INI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\TU/TimesNewRoman(0)/m/n/14.4 Комаровский, В. Сокеты программирование в приме
-рах./ В.
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Содержитэкземпляр
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 25--26
-\TU/TimesNewRoman(0)/m/n/14.4 Комаровский.– М.: Издательский дом «Питер», 2019.
-– 432 с.– ISBN
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/14.4 элемента ComboBox
  []
 
-)
 
-Package caption Warning: Unused \captionsetup[table] on input line 84.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/14.4 в который записы-
+ []
 
-[30
 
-] (main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/14.4 ваются доступные
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 20--21
+\TU/TimesNewRoman(0)/m/n/14.4 ip-адреса для вывода
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/14.4 писывается текущий
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/14.4 ip-адрес по которому
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/14.4 будет осуществле-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/14.4 но подключение к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Строка которая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/14.4 используется для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/14.4 текущего выбранно-
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/14.4 го пути в файловой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/14.4 системе на стороне
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Строка которая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/14.4 используется для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/14.4 текущего выбранно-
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/14.4 го пути в файловой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/14.4 системе на стороне
+ []
+
+[44
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 TcpClient из про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 странства имен
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 System.Net.Sockets,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 который построен
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 поверх сокетов и
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 использует сокет для
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 данных, но при этом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/TimesNewRoman(0)/m/n/14.4 упрощает написание
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 NetworkStream из
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 пространства имен
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 System.Net.Sockets,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 который использует-
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/14.4 ся для получения и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ServerConsole-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\TU/TimesNewRoman(0)/m/n/14.4 TextBox, элемент
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 54--55
+\TU/TimesNewRoman(0)/m/n/14.4 для вывода сообще-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 54--55
+\TU/TimesNewRoman(0)/m/n/14.4 ний cmd полученных
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/TimesNewRoman(0)/m/n/14.4 писывается текущий
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 56--57
+\TU/TimesNewRoman(0)/m/n/14.4 ip-адрес по которому
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/TimesNewRoman(0)/m/n/14.4 будет осуществле-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\TU/TimesNewRoman(0)/m/n/14.4 но подключение к
+ []
+
+[45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\TU/TimesNewRoman(0)/m/n/14.4 TreeView, элемент
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр класса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+\TU/TimesNewRoman(0)/m/n/14.4 TreeView, элемент
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 85--87
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод который добавляет введен-
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 89--91
+\TU/TimesNewRoman(0)/m/n/14.4 Результат: генерируется случайный
+ []
+
+
+Overfull \hbox (19.06088pt too wide) in paragraph at lines 92--92
+[]|\TU/TimesNewRoman(0)/m/n/14.4 LoadIpComboBoxItems| 
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 92--94
+\TU/TimesNewRoman(0)/m/n/14.4 вода их в ComboBox. Результат: в
+ []
+
+[47]
+Underfull \hbox (badness 2042) in paragraph at lines 106--108
+\TU/TimesNewRoman(0)/m/n/14.4 элемента управления. Используется
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 106--108
+\TU/TimesNewRoman(0)/m/n/14.4 интерфейса. Результат: при измене-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ClientView
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ServerView
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ClientView
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ServerView
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 120--122
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 120--122
+\TU/TimesNewRoman(0)/m/n/14.4 FileButton. Используется для пере-
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 120--122
+\TU/TimesNewRoman(0)/m/n/14.4 хода в режим работы с файловы-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ConsoleButton
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 123--125
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 123--125
+\TU/TimesNewRoman(0)/m/n/14.4 Результат: скрываются все лишние
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 123--125
+\TU/TimesNewRoman(0)/m/n/14.4 элементы и открываются необходи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ConnectButton
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 126--128
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 126--128
+\TU/TimesNewRoman(0)/m/n/14.4 бранному ip-адресу. Результат: счи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ClientConsoleText-
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 129--131
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]|\TU/TimesNewRoman(0)/m/n/14.4 DisconnectButton
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 132--134
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 132--134
+\TU/TimesNewRoman(0)/m/n/14.4 DisconnectButton. Используется для
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 134--136
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 134--136
+\TU/TimesNewRoman(0)/m/n/14.4 нения ip-адреса. Результат: Считы-
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 134--136
+\TU/TimesNewRoman(0)/m/n/14.4 вает ip-адрес и соответствующего
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 136--138
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Overfull \hbox (3.05074pt too wide) in paragraph at lines 138--138
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ReceiveButton_Click| 
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 138--140
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 140--142
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод обработки нажатия кнопки
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 140--142
+\TU/TimesNewRoman(0)/m/n/14.4 ления ip-адреса. Результат: Считы-
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 140--142
+\TU/TimesNewRoman(0)/m/n/14.4 вает ip-адрес и соответствующего
+ []
+
+[48] [49] [50] [51]
+Underfull \hbox (badness 1303) in paragraph at lines 154--156
+\TU/TimesNewRoman(0)/m/n/14.4 сервера. Результат: запуск функции
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ConnectToServer-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 157--159
+\TU/TimesNewRoman(0)/m/n/14.4 указанному серверу на порте 8888.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ReceiveMessage-
+ []
+
+
+Overfull \hbox (0.64606pt too wide) in paragraph at lines 166--166
+[]|\TU/TimesNewRoman(0)/m/n/14.4 SendDirectoryFolder| 
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 172--174
+\TU/TimesNewRoman(0)/m/n/14.4 в соответствии с протоколами. Ре-
+ []
+
+
+Overfull \hbox (0.63199pt too wide) in paragraph at lines 174--174
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ReceiveDrivesAsync| 
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 174--176
+\TU/TimesNewRoman(0)/m/n/14.4 ных дисков ПК сервера. Результат:
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 174--176
+\TU/TimesNewRoman(0)/m/n/14.4 полученный список дисков сервера
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ReceiveDirectory-
+ []
+
+[52] [53]
+Underfull \hbox (badness 2547) in paragraph at lines 193--195
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод загрузки списка дисков ПК
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 195--197
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод вывода списка содержимого
+ []
+
+
+Overfull \hbox (5.45543pt too wide) in paragraph at lines 197--197
+[]|\TU/TimesNewRoman(0)/m/n/14.4 FindNodeRecursively| 
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 203--205
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод вывода списка содержимого
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр клас-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 са TcpListener из
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 пространства имен
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 System.Net.Sockets, ко-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 сокетов и позволяет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 упростить написание
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 некоторых вещей,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 по сравнению с ис-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+\TU/TimesNewRoman(0)/m/n/14.4 пользованием чистых
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Экземпляр клас-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 са Process из про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 странства имен
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 System.Diagnostics.
+ []
+
+
+Underfull \hbox (badness 6995) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 Этот класс позволяет
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 управлять уже запу-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 щенными процессами,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+\TU/TimesNewRoman(0)/m/n/14.4 а также запускать
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод асинхронного запуска сер-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+\TU/TimesNewRoman(0)/m/n/14.4 вера. Результат: вызов метода
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 236--238
+\TU/TimesNewRoman(0)/m/n/14.4 и ожидания подключения клиента.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
+\TU/TimesNewRoman(0)/m/n/14.4 Результат: ожидает подключение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+[]|\TU/TimesNewRoman(0)/m/n/14.4 HandleClient-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод ожидания и считывания
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/14.4 полученных данных от клиен-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/14.4 та. Результат: вызывает метод
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/14.4 StartCmdInBackground и в зависи-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+\TU/TimesNewRoman(0)/m/n/14.4 мости от полученного сообщения
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+[]|\TU/TimesNewRoman(0)/m/n/14.4 StartCmdIn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ExecuteCommand-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 245--247
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Метод выполнения полученной ко-
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 247--249
+\TU/TimesNewRoman(0)/m/n/14.4 в соответствии с протоколами. Ре-
+ []
+
+
+Overfull \hbox (4.66792pt too wide) in paragraph at lines 251--251
+[]|\TU/TimesNewRoman(0)/m/n/14.4 SendCommandAsync| 
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 255--257
+\TU/TimesNewRoman(0)/m/n/14.4 ветствующему протоколу отправля-
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 257--259
+\TU/TimesNewRoman(0)/m/n/14.4 мого папки. Результат: возвращает
+ []
+
+[56] [57] [58]
+Underfull \hbox (badness 1082) in paragraph at lines 277--278
+\TU/TimesNewRoman(0)/m/n/14.4 является запросом на отправку списка дисков
+ []
+
+File: images/1.png Graphic file (type bmp)
+<images/1.png>
+[59]
+File: images/2.png Graphic file (type bmp)
+<images/2.png>
+File: images/3.png Graphic file (type bmp)
+<images/3.png>
+ [60]
+File: images/4.png Graphic file (type bmp)
+<images/4.png>
+File: images/5.png Graphic file (type bmp)
+<images/5.png>
+ [61]
+File: images/6.png Graphic file (type bmp)
+<images/6.png>
+File: images/7.png Graphic file (type bmp)
+<images/7.png>
+ [62]
+File: images/8.png Graphic file (type bmp)
+<images/8.png>
+File: images/9.png Graphic file (type bmp)
+<images/9.png>
+ [63]
+File: images/10.png Graphic file (type bmp)
+<images/10.png>
+File: images/11.png Graphic file (type bmp)
+<images/11.png>
+ [64]
+File: images/12.png Graphic file (type bmp)
+<images/12.png>
+File: images/13.png Graphic file (type bmp)
+<images/13.png>
+ [65]
+File: images/14.png Graphic file (type bmp)
+<images/14.png>
+File: images/15.png Graphic file (type bmp)
+<images/15.png>
+ [66]
+File: images/16.png Graphic file (type bmp)
+<images/16.png>
+) (Заключение.tex
+Underfull \hbox (badness 2096) in paragraph at lines 429--1
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для компиляции и сборки всех компонентов, входя
+щих в состав
+ []
+
+[67] [68]) (СписокИсточников.tex [69
+
+]
+Underfull \hbox (badness 3679) in paragraph at lines 25--26
+[]\TU/TimesNewRoman(0)/m/n/14.4 Зыков, С.В. Введение в теорию программирования.
+ Объектно-
+ []
+
+[70
+
+]
+Underfull \hbox (badness 6510) in paragraph at lines 52--53
+[]\TU/TimesNewRoman(0)/m/n/14.4 Приемы объектно-ориентированного проектирования
+: Паттерны
+ []
+
+) (Плакаты.tex [71]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 2.
+
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
+File: images/плакат1.eps Graphic file (type eps)
+<images/плакат1.eps>
+[72
+
+]
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
+File: images/плакат2.eps Graphic file (type eps)
+<images/плакат2.eps>
+ [73]
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
+File: images/плакат3.eps Graphic file (type eps)
+<images/плакат3.eps>
+ [74]
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
+File: images/плакат4.eps Graphic file (type eps)
+<images/плакат4.eps>
+ [75]
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
+File: images/плакат5.eps Graphic file (type eps)
+<images/плакат5.eps>
+ [76]
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
+File: images/плакат6.eps Graphic file (type eps)
+<images/плакат6.eps>
+ [77]
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+File: images/плакат7.eps Graphic file (type eps)
+<images/плакат7.eps>
+ [78]
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+File: images/плакат8.eps Graphic file (type eps)
+<images/плакат8.eps>
+) [79] [80] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BA7FD12FBD33D54739F3863164AEB9A2;12853.
+(rerunfilecheck)             Checksum: 779BA5A0B0DE426CC96297FFD969FE89;17630.
  ) 
 Here is how much of TeX's memory you used:
- 18005 strings out of 409616
- 343024 string characters out of 5778255
- 1933191 words of memory out of 5000000
- 39834 multiletter control sequences out of 15000+600000
- 559550 words of font info for 66 fonts, out of 8000000 for 9000
+ 18823 strings out of 409616
+ 357272 string characters out of 5778255
+ 1947191 words of memory out of 5000000
+ 40619 multiletter control sequences out of 15000+600000
+ 559542 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,96p,905b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,96p,905b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (30 pages).
+Output written on main.pdf (80 pages).

@@ -1,81 +1,432 @@
 \newsection
 \section{Рабочий проект}
-\subsection{Классы, используемые при разработке сайта}
+\subsection{Спецификация компонентов и классов программной системы}
 
-Можно выделить следующий список классов и их методов, использованных при разработке web-приложения (таблица \ref{class:table}). Для таблицы используется пакет longtable c целью проверки совместимости между xltabular и longtable. Для новых таблиц предпочтительнее использовать пакет xltabular.
+Для клиентской и серверной части приведено описание основных классов, их полей и методов. Фрагменты исходного кода приведены в приложении Б.
 
-\begin{longtable}[l]{|p{2.5cm}|p{2.5cm}|p{4.85cm}|p{4.85cm}|}
-\caption{Описание классов Bitrix, используемых в приложении\label{class:table}}\\
-\hline \centrow Название класса & \centrow Модуль, к которому относится класс & \centrow Описание класса & \centrow Методы \\
+\subsubsection{Спецификация классов клиента}
+Как уже говорилось в пункте 3.4.1.1 технического проекта клиентская часть программы содержит несколько классов. В таблицах \ref{class:fieldInI} - \ref{class:fieldView} приведено описание полей данных классов. 
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{3.25cm}|p{4.85cm}|}
+\caption{Описание полей класса IniFile\label{class:fieldInI}}\\
+\hline \centrow Название поля & \centrow Метод
+доступа & \centrow Тип данных & \centrow Описание \\
 \hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
 \endfirsthead
-\caption*{Продолжение таблицы \ref{class:table}}\\
+\caption*{Продолжение таблицы \ref{class:fieldInI}}\\
 \hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
 \finishhead
-\hline CMain & Главный модуль & CMain – главный класс страницы web-приложения. После одного из этапов по загрузке страницы в сценарии становится доступным инициализированный системой объект данного класса с именем \$APPLICATION & void ShowTitle(string property\_code = «title», bool strip\_tags = true)
-Выводит заголовок страницы
-void SetTitle(string title)
-Устанавливает заголовок страницы
-
-void ShowCSS(bool external = true, bool XhtmlStyle = true)
-Выводит таблицу стилей CSS страницы\\
-\hline CFile & Главный модуль & CFile – Класс для работы с файлами и изображениями & array GetFileArray (int file\_id)
-Метод возвращает массив, содержащий описание файла (путь к файлу, имя файла, размер) с идентификатором file\_id
+\hline  iniFilePath & private & string & Содержит полный путь и имя до INI файла\\
+\hline IpComboBox & private & ComboBox & Содержитэкземпляр элемента ComboBox в который записываются доступные ip-адреса для вывода на форму 
 \end{longtable}
 \vspace{-\tablebelowskip}
 
-\subsection{Модульное тестирование разработанного web-сайта}
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{3.25cm}|p{4.85cm}|}
+	\caption{Описание полей класса Client\label{class:fieldClient}}\\
+	\hline \centrow Название поля & \centrow Метод
+	доступа & \centrow Тип данных & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:fieldClient}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\finishhead
+	\hline Ip & private & string & Строка в которую записывается текущий ip-адрес по которому будет осуществлено подключение к серверу\\
+	\hline fileView & private & FileView & Экземпляр класса FileView\\
+	\hline iniFile & private & IniFile & Экземпляр класса IniFile\\
+	\hline tcpSocket & private & TcpSocket & Экземпляр класса TcpSocket\\
+	\hline filePathClient & private & string & Строка которая используется для текущего выбранного пути в файловой системе на стороне клиента\\
+	\hline filePathServer & private & string & Строка которая используется для текущего выбранного пути в файловой системе на стороне сервера
+\end{longtable}
+\vspace{-\tablebelowskip}
 
-Модульный тест для класса User из модели данных представлен на рисунке \ref{unitUser:image}.
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{3.25cm}|p{4.85cm}|}
+	\caption{Описание полей класса TcpSocket\label{class:fieldTcp}}\\
+	\hline \centrow Название поля & \centrow Метод
+	доступа & \centrow Тип данных & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:fieldTcp}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\finishhead
+	\hline client & private & TcpClient & Экземпляр класса TcpClient из пространства имен System.Net.Sockets, который построен поверх сокетов и использует сокет для отправки и получения данных, но при этом упрощает написание некоторых вещей\\
+	\hline stream & private & NetworkStream & Экземпляр класса NetworkStream из пространства имен System.Net.Sockets, который используется для получения и отправки данных\\
+	\hline ServerConsole-
+	TextBox & private & TextBox & Экземпляр класса TextBox, элемент которого используется для вывода сообщений cmd полученных от сервера\\
+	\hline fileView & private & FileView & Экземпляр класса FileView\\
+	\hline Ip & private & string & Строка в которую записывается текущий ip-адрес по которому будет осуществлено подключение к серверу
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{3.25cm}|p{4.85cm}|}
+	\caption{Описание полей класса FileView\label{class:fieldView}}\\
+	\hline \centrow Название поля & \centrow Метод
+	доступа & \centrow Тип данных & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:fieldView}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\finishhead
+	\hline ClientView & private & TreeView & Экземпляр класса TreeView, элемент которого используется для вывода файловой системы клиента\\
+	\hline ServerView & private & TreeView & Экземпляр класса TreeView, элемент которого используется для вывода файловой системы сервера
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+В таблицах \ref{class:tableInI} - \ref{class:tableView} приведено описание методов данных классов. 
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{8.1cm}|}
+	\caption{Описание методов класса IniFile\label{class:tableInI}}\\
+	\hline \centrow Название метода & \centrow Метод
+	доступа & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableInI}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\finishhead
+	\hline AddId & public & Метод который добавляет введенный пользователем ip-адрес.
+	Результат: если ip-адреса не существует в INI файле, то он добавляется в файл, иначе выводит сообщение об ошибке.\\
+	\hline IsValueExist & public & Метод проверки введенного пользователем ip-адреса на соответствие с имеющимися ip-адресами.
+	Результат: возвращает true если совпадение есть, иначе false.\\
+	\hline GenerateUniqueKey & private & Метод генерации уникального ключа для сохранения ip-адреса в INI файл.
+	Результат: генерируется случайный ключ для сохранения ip-адреса\\
+	\hline DeleteIp & public & Метод удаления введенного пользователем ip-адреса для удаления из INI файла. \\
+	\hline LoadIpComboBoxItems & public & Метод считывания всех имеющихся в INI файле ip-адресов, а также вывода их в ComboBox.
+	Результат: в ComboBox отображаются все имеющиеся ip-адреса. 
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{8.1cm}|}
+	\caption{Описание методов класса Client\label{class:tableClient}}\\
+	\hline \centrow Название метода & \centrow Метод
+	доступа & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableClient}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\finishhead
+	\hline MainForm\_Resize & private & Метод обработки события изменения элемента управления. Используется для настройки элементов на форме интерфейса.
+	Результат: при изменении формы также пропорционально ей меняются и все элементы.\\
+	\hline ClientView
+	\_BeforeExpand & private & Метод обработки события развертывания узла на элементе TreeView. Используется для вывода содержимого выбранной папки в файловой системе клиента.
+	Результат: выводит список всех файлов и папок в выбранной ветке.\\
+	\hline ServerView
+	\_BeforeExpand & private & Метод обработки события развертывания узла на элементе TreeView. Используется для вывода содержимого выбранной папки в файловой системе сервера.
+	Результат: выводит список всех файлов и папок в выбранной ветке.\\
+	\hline ClientView
+	\_AfterSelect & private & Метод обработки события изменения узла на элементе TreeView. Используется для отображения пути выбранного пользователем на стороне клиента.
+	Результат: выводит выбранный пользователем путь.\\
+	\hline ServerView
+	\_AfterSelect & private & Метод обработки события изменения узла на элементе TreeView. Используется для отображения пути выбранного пользователем на стороне сервера.
+	Результат: выводит выбранный пользователем путь.\\
+	\hline FileButton\_Click & private & Метод обработки нажатия кнопки FileButton. Используется для перехода в режим работы с файловыми системами.
+	Результат: скрываются все лишние элементы и открываются необходимые для работы.\\
+	\hline ConsoleButton
+	\_Click & private & Метод обработки нажатия кнопки ConsoleButton. Используется для перехода в режим работы с консолью.
+	Результат: скрываются все лишние элементы и открываются необходимые для работы.\\
+	\hline ConnectButton
+	\_Click & private & Метод обработки нажатия кнопки ConnectButton. Используется для создания подключения к серверу по выбранному ip-адресу.
+	Результат: считывает ip-адрес и соответствующего TextBox и запускает функцию установки соединения.\\
+	\hline ClientConsoleText-
+	Box\_KeyDown & private & Метод обработки нажатия кнопки Enter. Используется для отправки введенной команды на сервер.
+	Результат: считывает команду и соответствующего TextBox и запускает функцию отправки команды.\\
+	\hline DisconnectButton
+	\_Click & private & Метод обработки нажатия кнопки DisconnectButton. Используется для разрыва текущего соединения с сервером.
+	Результат: соединение с сервером разрывается.\\
+	\hline AddButton\_Click & private & Метод обработки нажатия кнопки AddButton. Используется для сохранения ip-адреса.
+	Результат: Считывает ip-адрес и соответствующего TextBox и запускает функцию сохранения его в INI файла.\\
+	\hline SendButton\_Click & private &  Метод обработки нажатия кнопки SendButton. Используется для отправки файла на сервер.
+	Результат: считывает файл по выбранному пути и путь по которому сохранить его на сервере и запускает функцию отправки файла на сервер.\\
+	\hline ReceiveButton\_Click & private & Метод обработки нажатия кнопки ReceiveButton. Используется для получения файла от сервера.
+	Результат: считывает путь к файлу, путь сохранения файла  и запускает функцию получения файла от сервер.\\
+	\hline DeleteButton\_Click & private & Метод обработки нажатия кнопки DeleteButton. Используется для удаления ip-адреса.
+	Результат: Считывает ip-адрес и соответствующего TextBox и запускает функцию удаление его из INI файла.
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{8.1cm}|}
+	\caption{Описание методов класса TcpSocket\label{class:tableTcp}}\\
+	\hline \centrow Название метода & \centrow Метод
+	доступа & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableTcp}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\finishhead
+	\hline Start & private & Метод асинхронного запуска поиска сервера.
+	Результат: запуск функции  ConnectToServerAsync \\
+	\hline ConnectToServer-
+	Async & private & Метод асинхронного подключения к указанному серверу на порте 8888.
+	Результат: если предварительно сервер запущен, то осуществляется подключение, иначе выводится сообщение о соответствующей ошибке.\\
+	\hline ReceiveMessage-
+	Async & private & Метод получения и обработки полученных данных от сервера.
+	Результат: в зависимости от типа сообщения запускает необходимые функции обработки входных данных.\\
+	\hline SendCommand & public & Метод отправки команды на сервер.
+	Результат: команда конвертируется в массив байт и по соответствующему протоколу отправляется на сервер.\\
+	\hline SendDirectoryDrive & public & Метод отправки запроса на получения списка дисков на сервер.
+	Результат: запрос конвертируется в массив байт и по соответствующему протоколу отправляется на сервер.\\
+	\hline SendDirectoryFolder & public & Метод отправки запроса содержимого выбранной папки на сервер.
+	Результат: запрос конвертируется в массив байт и по соответствующему протоколу отправляется на сервер.\\
+	\hline SendFileAsync & public &  Метод отправки файла на сервер.
+	Результат: запрос конвертируется в массив байт и по соответствующему протоколу отправляется на сервер.\\
+	\hline SendReceiveFile & public & Метод запроса на получение файла на сервер.
+	Результат: запрос конвертируется в массив байт и по соответствующему протоколу отправляется на сервер.\\
+	\hline ReceiveDataAsync & private & Метод вычитки определенного количества байт из потока. Используется для считывания полученных данных в соответствии с протоколами.
+	Результат: из потока вычитывается указанное количество байт\\
+	\hline ReceiveDrivesAsync & private & Метод получения списка запрошенных дисков ПК сервера.
+	Результат: полученный список дисков сервера конвертируется в строку для вывода.\\
+	\hline ReceiveDirectory-
+	Async & private & Метод получения списка содержимого запрошенной директории сервера.
+	Результат: полученный список содержимого директории сервера конвертируется в строку для вывода.\\
+	\hline ReceiveFileAsync & private & Метод получения файла от сервера.
+	Результат: полученный файл сохраняется по указанному пути. 
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{8.1cm}|}
+	\caption{Описание методов класса FileView\label{class:tableView}}\\
+	\hline \centrow Название метода & \centrow Метод
+	доступа & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableView}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow\\
+	\finishhead
+	\hline LoadDrives & private & Метод загрузки списка дисков ПК клиента.
+	Результат: в TreeView выводятся все диски на ПК клиента\\
+	\hline LoadFiles & public & Метод вывода списка содержимого выбранной папки на ПК клиента.
+	Результат: в TreeView выводятся содержимое выбранной папки на ПК клиента\\
+	\hline FindNodeRecursively & private & Метод поиска ранее открытых узлов TreeView.
+	Результат: возвращает полный путь узла или null\\
+	\hline FindDriveNode & public & Метод поиска ранее открытых дисков и подпапок.
+	Результат: возвращает имя диска или подпапки или null\\
+	\hline LoadSeverDrive & public & Метод вывода списка дисков ПК сервера.
+	Результат: в TreeView выводятся все диски на ПК сервера\\
+	\hline LoadServerFiles & public & Метод вывода списка содержимого выбранной папки ПК сервера.
+	Результат: в TreeView выводятся содержимое выбранной папки ПК сервера\\
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\subsubsection{Спецификация классов сервера}
+Как уже говорилось в пункте 3.4.1.2 технического проекта серверная часть программы содержит один класс. В таблицах \ref{class:fieldServer} - \ref{class:tableServer} приведены описание полей и методов данного класса. 
+
+\begin{longtable}[l]{|p{4cm}|p{2.35cm}|p{3.25cm}|p{5.1cm}|}
+	\caption{Описание полей класса Server\label{class:fieldServer}}\\
+	\hline \centrow Название поля & \centrow Метод
+	доступа & \centrow Тип данных & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:fieldServer}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3 & \centrow 4\\
+	\finishhead
+	\hline tcpListener & private & TcpListener & Экземпляр класса TcpListener из пространства имен System.Net.Sockets, который построен поверх сокетов и позволяет упростить написание некоторых вещей, по сравнению с использованием чистых сокетов.\\
+	\hline process & private & Process & Экземпляр класса Process из пространства имен System.Diagnostics. Этот класс позволяет управлять уже запущенными процессами, а также запускать новые. 
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\begin{longtable}[l]{|p{4.25cm}|p{2.35cm}|p{8.1cm}|}
+	\caption{Описание методов класса Server\label{class:tableServer}}\\
+	\hline \centrow Название метода & \centrow Метод
+	доступа & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableServer}}\\
+	\hline \centrow 1 & \centrow 2 & \centrow 3\\
+	\finishhead
+	\hline InitializeServer & private & Метод асинхронного запуска сервера.
+	Результат: вызов метода StartServerAsync.\\
+	\hline StartServerAsync & private & Метод запуска сервера на порте 8888 и ожидания подключения клиента.
+	Результат: ожидает подключение клиента. Если оно есть вызывается HandleClientCommAsync.\\
+	\hline HandleClient-
+	CommAsync & private & Метод ожидания и считывания полученных данных от клиента.
+	Результат: вызывает метод StartCmdInBackground и в зависимости от полученного сообщения функцию обработки.\\
+	\hline StartCmdIn-
+	Background & private & Метод запуска сmd на ПК сервера.
+	Результат: cmd запускается в фоновом режиме от имени администратора. \\
+	\hline ExecuteCommand-
+	Async & private & Метод выполнения полученной команды.
+	Результат: отправляет команду в cmd на выполнение.\\
+	\hline ReceiveDataAsync & private & Метод вычитки определенного количества байт из потока. Используется для считывания полученных данных в соответствии с протоколами.
+	Результат: из потока вычитывается указанное количество байт\\
+	\hline ReceiveFileAsync & private & Метод получения файла от клиента.
+	Результат: полученный файл сохраняется по указанному пути. \\
+	\hline SendCommandAsync & private & Метод отправки результата выполнения команды клиенту.
+	Результат: команда в режиме реального времени транслируется клиенту.\\
+	\hline SendDrivesAsync & private &  Метод отправки списка дисков клиенту.
+	Результат: команда конвертируется в массив байт и по соответствующему протоколу отправляется клиенту.\\
+	\hline SendFolderAsync & private & Метод отправки списка содержимого папки клиенту.
+	Результат: список конвертируется в массив байт и по соответствующему протоколу отправляется клиенту.\\
+	\hline GetDirectoryData & private & Метод считывания списка содержимого папки.
+	Результат: возвращает список содержимого для отправки.\\
+	\hline SendFileAsync & private & Метод отправки файла клиенту.
+	Результат: файл конвертируется в массив байт и по соответствующему протоколу отправляется клиенту.
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\subsubsection{Спецификация enum которые используются в программной системе}
+Для того, чтобы в программе посылаемые сообщения не путались между собой были придуманы так называемые флаги. Они представляют из себя имена по которым клиент и сервер способны распознать какое именно сообщение приходит по потоку на данный момент. Реализована с помощью типа enum. В таблице \ref{class:tableEnum} приведены названия и описания этих флагов.
+
+\begin{longtable}[l]{|p{4.25cm}|p{10.55cm}|}
+	\caption{Описание флагов в enum\label{class:tableEnum}}\\
+	\hline \centrow Название & \centrow Описание \\
+	\hline \centrow 1 & \centrow 2 \\
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{class:tableEnum}}\\
+	\hline \centrow 1 & \centrow 2 \\
+	\finishhead
+	\hline FilePath & Флаг который означает, что текущее сообщения передает файл и путь по которому его необходимо сохранить \\
+	\hline Command & Флаг который означает, что текущее сообщение передает команду. её следует выполнить в cmd и отправить ответ клиенту\\
+	\hline DirectoryDrive & Флаг который означает, что текущее сообщение является запросом на отправку списка дисков сервера клиенту\\
+	\hline DirectoryFolder & Флаг который означает, что текущее сообщение является запросом на отправку содержимого папки клиенту по указанному пути\\
+	\hline ReceiveFile & Флаг который означает, что текущее сообщение является запросом на отправку файла клиенту
+\end{longtable}
+\vspace{-\tablebelowskip}
+
+\subsection{Системное тестирование разработанного приложения}
+
+На рисунке \ref{1:image} представлен интерфейс программы на стороне клиента. При запуске воспроизводится вариант использования консоли сервера.
 
 \begin{figure}
-\begin{lstlisting}[language=Python]
-from django.test import TestCase
-from .models import *
-User = get_user_model()
-
-
-class ShpoTestCases(TestCase):
-
-    def setUp(self) -> None:
-        self.user = User.objects.create(username='testtestovich', password='testtestovich', first_name='Sad', last_name='')
-
-    def test_2(self):
-
-        self.assertEqual(self.user.first_name, 'Sad')
-        self.assertEqual(self.user.last_name, 'Cat')
-        print((self.user))
-        print((self.user.first_name))
-        print((self.user.last_name))
-\end{lstlisting}
-\caption{Модульный тест класса User}
-\label{unitUser:image}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/1"}
+	\caption{Окно при запуске программы}
+	\label{1:image}
 \end{figure}
 
-\subsection{Системное тестирование разработанного web-сайта}
-
-На рисунке \ref{main:image} представлена главная страница сайта «Русатом – Аддитивные технологии».
+На рисунке \ref{2:image} представлено динамичное изменение интерфейса при деформации окна программы.
 
 \begin{figure}
-\center{\includegraphics[width=1\linewidth]{main1}}
-\center{\includegraphics[width=1\linewidth]{main2}}
-\center{\includegraphics[width=1\linewidth]{main3}}
-\caption{Главная страница сайта «Русатом – Аддитивные технологии»}
-\label{main:image}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/2"}
+	\caption{Изменение интерфейса при деформации окна программы}
+	\label{2:image}
 \end{figure}
 
-На рисунке \ref{menu:image} представлен динамический вывод заголовков, включающий в себя искомые фразы при поиске фраз.
+На рисунке \ref{3:image} представлено добавление нового ip-адреса в INI файл программы.
 
 \begin{figure}
-\center{\includegraphics[width=1\linewidth]{menu}}
-\caption{Динамический вывод заголовков}
-\label{menu:image}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/3"}
+	\caption{Добавление нового ip-адреса}
+	\label{3:image}
 \end{figure}
 
-На рисунке \ref{enter:image} представлен ввод данных для публикации новости.
+На рисунке \ref{4:image} представлен запуск серверной части программной системы в виде службы.
 
 \begin{figure}
-\center{\includegraphics[width=1\linewidth]{enter}}
-\caption{Ввод данных для публикации очень-очень длинной, интересной и полезной новости}
-\label{enter:image}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/4"}
+	\caption{Запуск серверной части системы в виде службы}
+	\label{4:image}
 \end{figure}
+
+На рисунке \ref{5:image} представлен процесс успешного подключения к серверу по ранее добавленному ip-адресу.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/5"}
+	\caption{Подключение к серверу}
+	\label{5:image}
+\end{figure}
+
+На рисунке \ref{6:image} представлен процесс отправки команды в cmd сервера и получение результата её выполнения.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/6"}
+	\caption{Отправка команды и получения результата её выполнения}
+	\label{6:image}
+\end{figure}
+
+На рисунке \ref{7:image} представлено переключения в режим работы файловой системы ПК.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/7"}
+	\caption{Переключение в режим работы с файловой системой}
+	\label{7:image}
+\end{figure}
+
+На рисунке \ref{8:image} представлено переключения в режим работы файловой системы при существующем активном соединении.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/8"}
+	\caption{Переключение в режим работы с файловой системой при существующем соединении}
+	\label{8:image}
+\end{figure}
+
+На рисунке \ref{9:image} представлен процесс просмотра содержимого дисков и папок обоих ПК. А также процесс выбора пути для получения или отправления файлов.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/9"}
+	\caption{Процесс просмотра содержимого дисков и папок}
+	\label{9:image}
+\end{figure}
+
+На рисунке \ref{10:image} представлен процесс отправки файла на сервер.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/10"}
+	\caption{Отправка файла на сервер}
+	\label{10:image}
+\end{figure}
+
+На рисунке \ref{11:image} представлен процесс получения файла от сервера
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/11"}
+	\caption{Получение файла от сервера}
+	\label{11:image}
+\end{figure}
+
+На рисунке \ref{12:image} представлен процесс отключения клиента от сервера.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/12"}
+	\caption{Отключение клиента от сервера}
+	\label{12:image}
+\end{figure}
+
+На рисунке \ref{13:image} представлен процесс удаления ip-адреса из INI файла.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/13"}
+	\caption{Удаления ip-адреса из INI файла}
+	\label{13:image}
+\end{figure}
+
+На рисунке \ref{14:image} представлен результат попытки подключения к не работающему или выключенному серверу.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/14"}
+	\caption{Ошибка при подключении к серверу}
+	\label{14:image}
+\end{figure}
+
+На рисунке \ref{15:image} представлен результат попытки удалить ip-адрес во время существования активного подключения.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/15"}
+	\caption{Ошибка при удалении ip-адреса}
+	\label{15:image}
+\end{figure}
+
+На рисунке \ref{16:image} представлен результат попытки добавления повторяющегося ip-адреса.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"images/16"}
+	\caption{Ошибка добавления ip-адреса}
+	\label{16:image}
+\end{figure}
+
+\subsection{Сборка программной системы}
+
+Для компиляции и сборки всех компонентов, входящих в состав
+программно-информационной системы использовалась Visual Studio 2022.
+Программную систему можно запустить в редакторе Visual Studio.
+Программный продукт можно запустить на операционной системе Windows.

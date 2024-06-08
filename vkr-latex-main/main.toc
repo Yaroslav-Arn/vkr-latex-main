@@ -1,41 +1,60 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{ВВЕДЕНИЕ}{5}{section*.1}%
-\contentsline {section}{\numberline {1}Анализ предметной области}{8}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Описание предметной области}{8}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Основные принципы удаленного администрирования}{9}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Задачи и функции удаленного администратора}{10}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Особенности администрирования в корпоративной среде}{11}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Техническое задание}{13}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Основание для разработки}{13}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{13}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Требования пользователя к программному продукту}{14}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Требования к данным программного продукта}{14}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Функциональные требования к программному продукту}{15}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Требования пользователя к интерфейсу в программном продукте}{16}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Варианты использования программного продукта}{17}{subsubsection.2.3.4}%
-\contentsline {paragraph}{\numberline {2.3.4.1}Добавление Ip}{17}{paragraph.2.3.4.1}%
-\contentsline {paragraph}{\numberline {2.3.4.2}Удаление Ip}{18}{paragraph.2.3.4.2}%
-\contentsline {paragraph}{\numberline {2.3.4.3}Подключение к серверу}{18}{paragraph.2.3.4.3}%
-\contentsline {paragraph}{\numberline {2.3.4.4}Открытие файловых систем компьютеров}{18}{paragraph.2.3.4.4}%
-\contentsline {paragraph}{\numberline {2.3.4.5}Получение и просмотр файловой системы клиента}{19}{paragraph.2.3.4.5}%
-\contentsline {paragraph}{\numberline {2.3.4.6}Получение и просмотр файловой системы сервера}{19}{paragraph.2.3.4.6}%
-\contentsline {paragraph}{\numberline {2.3.4.7}Отправка файла}{19}{paragraph.2.3.4.7}%
-\contentsline {paragraph}{\numberline {2.3.4.8}Получение файла}{20}{paragraph.2.3.4.8}%
-\contentsline {paragraph}{\numberline {2.3.4.9}Открытие консольного управления сервером}{20}{paragraph.2.3.4.9}%
-\contentsline {paragraph}{\numberline {2.3.4.10}Отправка команды}{20}{paragraph.2.3.4.10}%
-\contentsline {paragraph}{\numberline {2.3.4.11}Получение ответа}{21}{paragraph.2.3.4.11}%
-\contentsline {paragraph}{\numberline {2.3.4.12}Отключение от сервера}{21}{paragraph.2.3.4.12}%
-\contentsline {subsection}{\numberline {2.4}Нефункциональные требования к программному продукту}{21}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Требования к надежности}{21}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Требования к программному обеспечению}{21}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Требования к оформлению документации}{22}{subsubsection.2.4.3}%
-\contentsline {section}{\numberline {3}Технический проект}{23}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Общие сведения о программной систем}{23}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{23}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Описание используемых технологий и языков программирования}{24}{subsubsection.3.2.1}%
-\contentsline {paragraph}{\numberline {3.2.1.1}Язык программирования C\#}{24}{paragraph.3.2.1.1}%
-\contentsline {paragraph}{\numberline {3.2.1.2}Протокол TCP/IP}{26}{paragraph.3.2.1.2}%
-\contentsline {subsection}{\numberline {3.3}Проектирование архитектуры программной системы}{27}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Архитектура программной системы}{27}{subsubsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.4}Проектирование пользовательского интерфейса}{27}{subsection.3.4}%
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{30}{section*.9}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{10}{section*.1}%
+\contentsline {section}{\numberline {1}Анализ предметной области}{13}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Описание предметной области}{13}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Основные принципы удаленного администрирования}{14}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Задачи и функции удаленного администратора}{15}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Особенности администрирования в корпоративной среде}{16}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Техническое задание}{18}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Основание для разработки}{18}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{18}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Требования пользователя к программному продукту}{20}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Требования к данным программного продукта}{20}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Функциональные требования к программному продукту}{20}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Требования пользователя к интерфейсу в программном продукте}{22}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Варианты использования программного продукта}{24}{subsubsection.2.3.4}%
+\contentsline {paragraph}{\numberline {2.3.4.1}Добавление ip-адрес}{24}{paragraph.2.3.4.1}%
+\contentsline {paragraph}{\numberline {2.3.4.2}Удаление ip-адреса}{24}{paragraph.2.3.4.2}%
+\contentsline {paragraph}{\numberline {2.3.4.3}Подключение к серверу}{25}{paragraph.2.3.4.3}%
+\contentsline {paragraph}{\numberline {2.3.4.4}Открытие файловых систем компьютеров}{25}{paragraph.2.3.4.4}%
+\contentsline {paragraph}{\numberline {2.3.4.5}Получение и просмотр файловой системы клиента}{25}{paragraph.2.3.4.5}%
+\contentsline {paragraph}{\numberline {2.3.4.6}Получение и просмотр файловой системы сервера}{26}{paragraph.2.3.4.6}%
+\contentsline {paragraph}{\numberline {2.3.4.7}Отправка файла}{26}{paragraph.2.3.4.7}%
+\contentsline {paragraph}{\numberline {2.3.4.8}Получение файла}{26}{paragraph.2.3.4.8}%
+\contentsline {paragraph}{\numberline {2.3.4.9}Открытие консольного управления сервером}{27}{paragraph.2.3.4.9}%
+\contentsline {paragraph}{\numberline {2.3.4.10}Отправка команды}{27}{paragraph.2.3.4.10}%
+\contentsline {paragraph}{\numberline {2.3.4.11}Получение ответа}{27}{paragraph.2.3.4.11}%
+\contentsline {paragraph}{\numberline {2.3.4.12}Отключение от сервера}{28}{paragraph.2.3.4.12}%
+\contentsline {subsection}{\numberline {2.4}Нефункциональные требования к программному продукту}{28}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Требования к надежности}{28}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Требования к программному обеспечению}{28}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Требования к оформлению документации}{28}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Технический проект}{29}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Общие сведения о программной систем}{29}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{29}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Описание используемых технологий и языков программирования}{30}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Язык программирования C\#}{30}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Протокол TCP/IP}{32}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Дополнительные протоколы}{33}{subsubsection.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.1}Протокол FilePath}{33}{paragraph.3.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.3.2}Протокол Command}{35}{paragraph.3.3.3.2}%
+\contentsline {paragraph}{\numberline {3.3.3.3}Протокол DirectoryDrive}{35}{paragraph.3.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.4}Протокол DirectoryFolder}{36}{paragraph.3.3.3.4}%
+\contentsline {paragraph}{\numberline {3.3.3.5}Протокол ReceiveFile}{37}{paragraph.3.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Проектирование архитектуры программной системы}{37}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Архитектура программной системы}{37}{subsubsection.3.4.1}%
+\contentsline {paragraph}{\numberline {3.4.1.1}Описание клиента}{37}{paragraph.3.4.1.1}%
+\contentsline {paragraph}{\numberline {3.4.1.2}Описание сервера}{40}{paragraph.3.4.1.2}%
+\contentsline {subsection}{\numberline {3.5}Проектирование пользовательского интерфейса}{41}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Рабочий проект}{44}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Спецификация компонентов и классов программной системы}{44}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Спецификация классов клиента}{44}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Спецификация классов сервера}{55}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Спецификация enum которые используются в программной системе}{59}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Системное тестирование разработанного приложения}{59}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сборка программной системы}{67}{subsection.4.3}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{69}{section*.27}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{70}{section*.28}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А \relax \ignorespaces Представление графического материала}{72}{section*.29}%
